@@ -24,4 +24,4 @@ class Matrix - A matrix class used to apply math to predict our most likely outc
 
 class Back_End - A class of a back-end object that will handle data using CRUD practices.
 
-<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/main/index.svg" />
+<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/main/indexwebframe.png" />
