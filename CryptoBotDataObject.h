@@ -9,7 +9,7 @@ using namespace std;
 
 class CryptoBotDataObject {
     public:
-     stack<string,int> data;
+     stack<string> data;
 
 // add function for cryptobot. the function utilizes the stack push() to add values into data.
      void add(CryptoBotDataObject _data){
@@ -23,7 +23,7 @@ class CryptoBotDataObject {
 
 // index function for cryptobot. the function utilizes the stack size(), push(), pop(), and top() to find a value at index
      string index(int _index){
-         stack<string,int> temp;
+         stack<string> temp;
 
          if(data.size() < _index || _index < 0)
             return "Not valid index";
@@ -50,7 +50,7 @@ class CryptoBotDataObject {
 
 // index function for cryptobot. the function utilizes the stack size(), push(), pop() and top() to find a value of index
      string index(string _index){
-         stack<string,int> temp;
+         stack<string> temp;
 
          if(data.top() != _index || data.empty())
             return "Not valid index";
@@ -82,7 +82,7 @@ class CryptoBotDataObject {
 
 // set function for cryptobot. the function utilizes the stack to set the value at index to anotherone.
      void set(string _index, string anotherone){
-         stack<string,int> temp;
+         stack<string> temp;
          string topValue;
          while(data.empty() == false){
                 topValue = data.top();
@@ -101,7 +101,7 @@ class CryptoBotDataObject {
      }
 
     void remove(string key){
-        stack<string,int> temp;
+        stack<string> temp;
          string topValue;
          while(data.empty() == false){
                 topValue = data.top();
