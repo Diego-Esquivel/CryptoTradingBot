@@ -5,6 +5,7 @@
  *  Code Summary: This source code file demonstrates our class learned materail.
  * *****************************************************************************************************************************************/
 #include "backend.h"
+#include "middleware.h"
 #include <iostream>
 
 using namespace std;
@@ -40,8 +41,11 @@ int main ()
 
         Read result_matrix and output answer to front-end and db
     */
-    download();
+    //download();
     backend one{};
+    middleware two{};
+    two.setBackend(&one);
+    two.start();
     
    return 1;
 }
