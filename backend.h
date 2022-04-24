@@ -31,7 +31,6 @@
     }
 
     string read(int _index) {
-        
         return data.index(_index);
     }
 
