@@ -46,8 +46,10 @@ int main ()
     backend one{};
     middleware two{};
     frontend three{};
+    three.start();
     two.setBackend(&one);
     two.start();
+    two.end();
     
    return 1;
 }

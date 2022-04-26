@@ -13,6 +13,7 @@
 
 class middleware {
     public:
+        frontend* thefrontofthismidware;
         backend* theendofthismidware;
         server aserver;
         void setBackend(backend* abackend){
@@ -21,20 +22,24 @@ class middleware {
 
         void requestRead(){
             //
-            processRequest(aserver.run());
+            processRequest(aserver.run()[0]);
         }
-        void processRequest(string _request){
+        void processRequest(char _request){
             //TODO
             switch ( _request ) {
-                
+                case '10' :
+                    cout << "A request";
             }
+
         }
         void start(){
             //starts server connection (server.h)
+            thefrontofthismidware->start();
             requestRead();
         }
         void end(){
-
+            thefrontofthismidware->end();
+            requestRead();
         }
 };
 
