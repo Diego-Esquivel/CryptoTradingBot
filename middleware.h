@@ -45,7 +45,6 @@ class middleware {
         }
         void end(){
             thefrontofthismidware->end();
-            requestRead();
         }
 };
 

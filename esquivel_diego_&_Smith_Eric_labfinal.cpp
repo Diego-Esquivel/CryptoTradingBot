@@ -48,8 +48,11 @@ int main ()
     frontend three{};
     two.setBackend(&one);
     two.setFrontend(&three);
-    two.start();
-    two.end();
+    while(1){
+        cout << "A print statement" << endl;
+        two.start();
+        two.end();
+    }
     
    return 1;
 }
