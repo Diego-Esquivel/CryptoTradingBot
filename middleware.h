@@ -20,10 +20,10 @@ class middleware {
 
         void requestRead(){
             //
-            cout << aserver.run();
+            processRequest(aserver.run());
         }
-        void processRequest(){
-
+        void processRequest(string _request){
+            //TODO
         }
         void start(){
             //starts server connection (server.h)
