@@ -6,6 +6,7 @@
  * *****************************************************************************************************************************************/
 #include "backend.h"
 #include "middleware.h"
+#include "frontend.h"
 #include <iostream>
 
 using namespace std;
@@ -44,6 +45,7 @@ int main ()
     //download();
     backend one{};
     middleware two{};
+    frontend three{};
     two.setBackend(&one);
     two.start();
     
