@@ -6,6 +6,7 @@
  * *****************************************************************************************************************************************/
 #ifndef MIDDLEWARE_H
 #define MIDDLEWARE_H
+#include <regex>
 #include "CryptoBotDataObject.h"
 #include "server.h"
 
@@ -24,6 +25,9 @@ class middleware {
         }
         void processRequest(string _request){
             //TODO
+            switch ( _request ) {
+                
+            }
         }
         void start(){
             //starts server connection (server.h)
