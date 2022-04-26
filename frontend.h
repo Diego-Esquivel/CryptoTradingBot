@@ -13,11 +13,11 @@ using namespace std;
 class frontend {
     public:
     void start(){
-        char* cmd = "start cryptoBot.html";
+        char* cmd = "start cryptoBot\\cryptoBot.html";
         system(cmd);
     }
     void end () {
-        char* cmd = "start cryptoBot2.html";
+        char* cmd = "start cryptoBot\\cryptoBot2.html";
         system(cmd);
     }
 

@@ -6,9 +6,10 @@
  * *****************************************************************************************************************************************/
 #ifndef MIDDLEWARE_H
 #define MIDDLEWARE_H
-#include <regex>
 #include "CryptoBotDataObject.h"
 #include "server.h"
+#include "frontend.h"
+#include "backend.h"
 
 
 class middleware {
@@ -19,10 +20,15 @@ class middleware {
         void setBackend(backend* abackend){
             theendofthismidware = abackend;
         }
+        void setFrontend(frontend* afrontend){
+            thefrontofthismidware = afrontend;
+        }
 
         void requestRead(){
             //
-            processRequest(aserver.run()[0]);
+            string temp = aserver.run();
+            cout << temp << endl << endl;
+            processRequest(temp[0]);
         }
         void processRequest(char _request){
             //TODO
