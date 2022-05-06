@@ -54,3 +54,9 @@ This is what the cli looks like in between client requests.
 
 ### A link to the repository:
 https://www.github.com/Diego-Esquivel/CryptoTradingBot
+
+# Work Cited:
+docs.microsoft.com
+w3schools.com
+developer.mozilla.org
+coingecko.com
