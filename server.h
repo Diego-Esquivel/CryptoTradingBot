@@ -117,6 +117,14 @@ class server {
         if (iResult > 0) {
             printf("Bytes received: %d\n", iResult);
             request_value = recvbuf;
+			iSendResult = send(ClientSocket, "HTTP/1.1 200 ALL GOOD\r\nAccess-Control-Allow-Origin: *\nConnection: Keep-Alive\r\nYes buy it all", 93, 0);
+			if (iSendResult == SOCKET_ERROR) {
+                printf("send failed with error: %d\n", WSAGetLastError());
+                closesocket(ClientSocket);
+                WSACleanup();
+                return "error";
+            }
+            printf("Bytes sent: %d\n", iSendResult);
         }
         else if (iResult == 0)
             printf("Connection closing...\n");

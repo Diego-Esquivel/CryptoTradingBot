@@ -14,7 +14,7 @@ using namespace std;
 void download() {
     //function to download the data from https://coinmarketcap.com  https://www.worldcoinindex.com/coin/solana/historical    https://www.worldcoinindex.com/coin/dogecash/historical  https://www.worldcoinindex.com/coin/bitcoin/historical   https://www.worldcoinindex.com/coin/ethereum/historical  https://www.worldcoinindex.com/coin/polygon/historical      https://www.worldcoinindex.com/coin/apecoin/historical
     //download function is curl -o <coin>.json https://www.worldcoinindex.com/coin/<coin>/historical
-    string coins[6] = {"https://www.coingecko.com/en/coins/solana/historical_data/usd#panel", "https://www.coingecko.com/en/coins/dogecash/historical_data/usd#panel", "https://www.coingecko.com/en/coins/bitcoin/historical_data/usd#panel", "https://www.coingecko.com/en/coins/ethereum/historical_data/usd#panel", "https://www.coingecko.com/en/coins/polygon/historical_data/usd#panel", "https://www.coingecko.com/en/coins/apecoin/historical_data/usd#panel"};
+    string coins[6] = {"https://www.coingecko.com/en/coins/solana/historical_data#panel", "https://www.coingecko.com/en/coins/dogecash/historical_data#panel", "https://www.coingecko.com/en/coins/bitcoin/historical_data#panel", "https://www.coingecko.com/en/coins/ethereum/historical_data#panel", "https://www.coingecko.com/en/coins/polygon/historical_data#panel", "https://www.coingecko.com/en/coins/apecoin/historical_data#panel"};
     string coinname[6] = {"solana", "dogecash", "bitcoin", "ethereum", "polygon", "apecoin"};
 
     for(int i = 0; i < 6; i ++){
@@ -42,7 +42,11 @@ int main ()
 
         Read result_matrix and output answer to front-end and db
     */
-    //download();
+    string update = "";
+    cout << "Download new data? (y/n)" << endl;
+    cin >> update;
+    if(update[0] == 'y')
+        download();
     backend one{};
     middleware two{};
     frontend three{};
