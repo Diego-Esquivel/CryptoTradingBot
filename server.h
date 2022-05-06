@@ -1,3 +1,9 @@
+/********************************************************************************************************************************************
+ *  Author: Diego G Esquivel & Eric D Smith
+ *  CSCE306 Spring 2022 - Object Oriented Software Development
+ *  Portfolio Project v.0.1: - server.h, <windows.h>, <winsock2.h>, <ws2tcpip.h>, <stdlib.h>, <stdio.h> <iostream>, <string>, <fstream>
+ *  Code Summary: This code header file is the server program for the application. It uses many windows only libraries and does file I/O.
+ * *****************************************************************************************************************************************/
 #undef UNICODE
 
 #define WIN32_LEAN_AND_MEAN
