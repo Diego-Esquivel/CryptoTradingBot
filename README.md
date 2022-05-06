@@ -50,3 +50,7 @@ The second page is the new page a user should input more input for more results.
 ## Program idle page
 This is what the cli looks like in between client requests.
 <img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/main/cliupdateswhileidle.jpg" />
+
+
+### A link to the repository:
+https://www.github.com/Diego-Esquivel/CryptoTradingBot
