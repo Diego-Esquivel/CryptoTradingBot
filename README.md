@@ -29,27 +29,27 @@ class Matrix - A matrix class used to apply math to predict our most likely outc
         private void rref - function to transform a matrix object to its row-reduced epsilon form.
         String to_Print - function to print the contents of the matrix object
 
-<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/blob/main/index.svg" />
+<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/refs/heads/main/index.svg" />
 
 ## Update Data
 This is the update data page. The update data page is operated from the computer CLI.
-	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/blob/main/updateFilescli.jpg?raw=true" />
+	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/refs/heads/main/updateFilescli.jpg?raw=true" />
 
 
 ## Request Screen
 This is the page that requests user input. When user input happens the page sends an HTTP request to get coin results.
-	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/blob/main/requestscreenhtml.jpg?raw=true" />
+	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/refs/heads/main/requestscreenhtml.jpg?raw=true" />
 
 
 ## Bot Response Results
 These two pages are results of the program. After a user inputs input to the request screen the program will load two new pages. Page #1 is a results page which looks like the original page but has a message that suggests what a client should do with their coin on a given day.
 The second page is the new page a user should input more input for more results. These two pictures are only results pages.
-	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/blob/main/botresults1.jpg?raw=true" />
-	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/blob/main/botresults2.jpg?raw=true" />
+	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/refs/heads/main/botresults1.jpg?raw=true" />
+	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/refs/heads/main/botresults2.jpg?raw=true" />
 
 ## Program idle page
 This is what the cli looks like in between client requests.
-	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/blob/main/cliupdateswhileidle.jpg?raw=true" />
+	<img align="left" width="600" height="600" alt="Visual Studio Code" src="https://raw.githubusercontent.com/Diego-Esquivel/CryptoTradingBot/refs/heads/main/cliupdateswhileidle.jpg?raw=true" />
 
 
 ### A link to the repository:
